@@ -76,7 +76,7 @@ class ProfilePageM3 extends StatelessWidget {
                     // CORRECTION : Le code charge uniquement l'image. 
                     // Si elle n'est pas trouvée, la zone sera vide ou affichera l'icône d'erreur par défaut de Flutter.
                     child: Image.asset(
-                      'images/profile_picture.png', // Chemin d'image souhaité
+                      'images/profiepicture.jpg', // Chemin d'image souhaité
                       fit: BoxFit.cover,
                       // Suppression de l'errorBuilder pour éliminer le fallback de l'icône/texte
                     ),
@@ -88,14 +88,14 @@ class ProfilePageM3 extends StatelessWidget {
 
             // Étape 2: Nom et titre
             Text(
-              'Oussama Ben Azine',
+              'Oussama Bouallegui',
               style: textTheme.headlineMedium?.copyWith(
                 fontWeight: FontWeight.bold,
               ),
             ),
             const SizedBox(height: 4),
             Text(
-              'Graphic & UI/UX Designer',
+              'Video Editor',
               style: textTheme.titleMedium?.copyWith(
                 color: colorScheme.primary,
               ),
